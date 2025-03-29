@@ -44,6 +44,10 @@ header {
 
         #signup-btn {
             @include button-blue;
+
+            &:hover {
+                @include button-blue-hover;
+            }
         }
     }
 }

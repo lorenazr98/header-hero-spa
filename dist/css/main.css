@@ -46,6 +46,11 @@ header #menu-sign #signup-btn {
   background: #264065;
   color: white;
   border: 0;
+  transition: all 0.3s ease;
+}
+header #menu-sign #signup-btn:hover {
+  background: rgb(216, 216, 216);
+  color: #264065;
 }
 
 #hero {
@@ -73,6 +78,11 @@ header #menu-sign #signup-btn {
   background: #264065;
   color: white;
   border: 0;
+  transition: all 0.3s ease;
+}
+#hero button.btn-book-now:hover {
+  background: rgb(216, 216, 216);
+  color: #264065;
 }
 #hero .buttons-hero {
   display: flex;
