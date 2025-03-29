@@ -1,0 +1,156 @@
+header {
+  display: flex;
+  margin-top: 33px;
+  margin-bottom: 90px;
+}
+header #menu-nav {
+  list-style: none;
+  display: flex;
+  justify-content: flex-start;
+  gap: 56px;
+  margin-left: 175px;
+}
+header #menu-nav a {
+  text-decoration: none;
+  color: #264065;
+  font-size: 18px;
+  font-weight: 400;
+}
+header #busqueda-comprar {
+  list-style: none;
+  display: flex;
+  gap: 27px;
+  margin-left: 251px;
+  margin-top: 10px;
+}
+header #menu-sign {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-left: 74px;
+}
+header #menu-sign #signin-btn {
+  text-decoration: underline;
+  color: #264065;
+  font-size: 18px;
+  margin-top: 15px;
+}
+header #menu-sign #signup-btn {
+  font-size: 18px;
+  display: flex;
+  width: 149px;
+  height: 60px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 32px;
+  background: #264065;
+  color: white;
+  border: 0;
+}
+
+#hero {
+  width: 45%;
+}
+#hero h1.hero-title {
+  color: #264065;
+  font-size: 64px;
+  font-weight: 700;
+  margin-bottom: 32px;
+}
+#hero p.hero-description {
+  color: #909090;
+  font-size: 24px;
+  font-weight: 400;
+}
+#hero button.btn-book-now {
+  font-size: 18px;
+  display: flex;
+  width: 149px;
+  height: 60px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 32px;
+  background: #264065;
+  color: white;
+  border: 0;
+}
+#hero .buttons-hero {
+  display: flex;
+  align-items: center;
+}
+#hero .buttons-hero img {
+  margin-top: 45px;
+}
+
+#reviews .opinion {
+  display: inline-flex;
+  padding: 24px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(8px);
+  width: 20%;
+}
+#reviews .opinion img {
+  width: 32px;
+  height: 21px;
+}
+#reviews .opinion .text-review {
+  color: #070D15;
+  font-size: 18px;
+  font-weight: 400;
+  margin: 0;
+}
+#reviews .opinion .name-review {
+  color: #264065;
+  font-size: 18px;
+  font-weight: 700;
+  margin: 0;
+}
+
+#first-opinion {
+  position: absolute;
+  top: 40%;
+  left: 76%;
+}
+
+#second-opinion {
+  position: absolute;
+  top: 70%;
+  left: 70%;
+}
+
+.services {
+  display: flex;
+  gap: 72px;
+  background-color: white;
+  display: inline-flex;
+  padding: 32px;
+  justify-content: center;
+  align-items: flex-start;
+}
+.services .special-treatment, .services .professional-therapist, .services .herbal-cream-formula {
+  display: inline;
+  text-align: center;
+}
+.services .number-services {
+  color: #264065;
+  font-weight: 500;
+}
+.services .name-services {
+  color: #909090;
+  font-weight: 400;
+}
+
+body {
+  margin-left: 100px;
+  font-family: "Poppins", sans-serif;
+  background-image: url("/img/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 100%;
+}
+
+/*# sourceMappingURL=main.css.map */

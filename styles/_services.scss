@@ -1,0 +1,26 @@
+@use 'variables' as *;
+
+.services {
+    display: flex;
+    gap: 72px;
+    background-color: white;
+    display: inline-flex;
+    padding: 32px;
+    justify-content: center;
+    align-items: flex-start;
+
+    .special-treatment, .professional-therapist, .herbal-cream-formula {
+        display: inline;
+        text-align: center;
+    }
+
+    .number-services {
+        color: $primary-color;
+        font-weight: 500;
+    }
+
+    .name-services {
+        color: $grey;
+        font-weight: 400;
+    }
+}

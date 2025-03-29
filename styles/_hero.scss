@@ -1,0 +1,32 @@
+@use 'variables' as *;
+@use 'buttons' as *;
+
+#hero {
+    width: 45%;
+
+    h1.hero-title {
+        color: $primary-color;
+        font-size: 64px;
+        font-weight: 700;
+        margin-bottom: 32px;
+    }
+
+    p.hero-description {
+        color: $grey;
+        font-size: 24px;
+        font-weight: 400;
+    }
+
+    button.btn-book-now {
+        @include button-blue;
+    }
+
+    .buttons-hero {
+        display: flex;
+        align-items: center;
+
+        img {
+            margin-top: 45px;
+        }
+    }
+}

@@ -1,0 +1,15 @@
+@use 'variables' as *;
+@use 'buttons' as *;
+@use 'header';
+@use 'hero';
+@use 'reviews';
+@use 'services';
+
+body {
+    margin-left: 100px;
+    font-family: "Poppins", sans-serif;
+    background-image: url("/img/background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100%;
+}

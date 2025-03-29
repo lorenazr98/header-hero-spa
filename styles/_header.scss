@@ -1,0 +1,50 @@
+@use 'variables' as *;
+@use 'buttons' as *;
+
+header {
+    display: flex;
+    margin-top: 33px;
+    margin-bottom: 90px;
+
+    #menu-nav {
+        list-style: none;
+        display: flex;
+        justify-content: flex-start;
+        gap: 56px;
+        margin-left: 175px;
+        
+        a {
+            text-decoration: none;
+            color: $primary-color;
+            font-size: 18px;
+            font-weight: 400;
+        }
+    }
+
+    #busqueda-comprar {
+        list-style: none;
+        display: flex;
+        gap: 27px;
+        margin-left: 251px;
+        margin-top: 10px;
+    }
+
+    #menu-sign {
+        display: flex;
+        justify-content: center;
+        gap: 40px;
+        margin-left: 74px;
+
+        #signin-btn {
+            text-decoration: underline;
+            color: $primary-color;
+            font-size: 18px;
+            margin-top: 15px
+        }
+
+        #signup-btn {
+            @include button-blue;
+        }
+    }
+}
+
