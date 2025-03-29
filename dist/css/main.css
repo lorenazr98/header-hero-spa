@@ -147,7 +147,7 @@ header #menu-sign #signup-btn {
 body {
   margin-left: 100px;
   font-family: "Poppins", sans-serif;
-  background-image: url("/img/background.png");
+  background-image: url("/header-hero-spa/img/background.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 100%;
